@@ -22,7 +22,7 @@ module Dashing
       @redis_port             = '6379'
       @redis_password         = nil
       @redis_namespace        = 'dashing_events'
-      @redis_timeout          = 3
+      @redis_timeout          = 10
 
       # Authorization
       @auth_token             = nil
